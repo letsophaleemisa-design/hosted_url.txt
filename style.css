@@ -101,11 +101,14 @@ display: block;
 	border:2px solid whitesmoke;
 	border-radius:2px solid whitesmoke;
 }
-.grid-menu{
-	display:flex; 
-	grid-template-columns: auto auto auto;
-	width: 50px;
-	height: 100px;
-	gap: 10px;
+.flex-container{
+	display: flex;
+	flex-direction:column;
 }
+.flex-item{
+	background-color: steelblue;
+	color: whitesmoke;
+	padding:5px;
+}
+
 
